@@ -2,7 +2,7 @@
 Interactive Java app to create Newton fractals.
 !!!There is no guarantee that any of the shown results are correct or usefull!!!
 
-Newton fractals are fractal that emerge from Newton's method for finding roots of a function f(z).
+Newton fractals are fractals that emerge from Newton's method for finding roots of a function f(z).
 Iterate x_(n+1) = x_n - f(z) / f'(z). Depending on x_0 this will converge to different roots of f(z).
 The fractal is then obtained by using different points in the complex plane as x_0 and coloring them in the same color if they converge to the same root.
 
@@ -16,3 +16,13 @@ The two "corner"-variables determine the region of the complex plane you are loo
 After all these variables have been set, click "Refresh" to start generating the fractal. Print statements in the console will indicate the progress. 
 For more complicated f(z) this can take a few seconds.
 The main class is contained in "NewtonFractal.java".
+
+Time for nice pictures:
+f(z) = z^3-1:
+![z^3-1](previewImages/zPow3Sub1.png)
+
+f(z) = cos(z):
+![cos(z)](previewImages/COSz.png)
+
+f(z) = (sin(z)^3 - 1) / (z + 1)^2 
+![(sin(z)^3 - 1) / (z + 1)^2](previewImages/(SINzPOW3SUB1)DIV((zADD1)POW2).png)
